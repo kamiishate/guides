@@ -18,33 +18,83 @@
               <article><div class="subtitle">ABSOLUTE BEGGINER GUIDE TO LINUX</div>
                <!-- LINE BREAK FOR READABILITY -->
                <h1>Disclaimers</h1>
-             <h2>Who this guide is aimed for?</h2><br/>
-  <p>This guide is aimed for people that want to start using linux, but don't have idea where to start. 
-This guide is made to be absolute beguinner with handholding, removing any and all advanced stuff at it's core and help people to boot on their first system and start learning everything linux from there.
-This guide will not delve deep in "why you recommend X or Y" as it will only make people more confuse than they already are.</p>
-               <!-- LINE BREAK FOR READABILITY -->
-            <h2>What is the objective of this guide?</h2><br/>
+             <h2>Who this guide is aimed for?</h2>
+  <p>This guide is aimed for people that want to start using linux, but don't have idea where to start and what to choose.<br>
+This guide is made to be absolute beguinner with handholding, removing any and all advanced choices at it's core and help people to boot on their first system and start learning everything linux from there.<br>
+This guide will not delve deep in "why you recommend X or Y" as it will only make people more confuse than they already are.<br>
+This guide will not teach you how to install any specific linux distro, but will link to other guides as needed. Also will link to distros and programs official sites for easy of search.
+  </p>
+
+            <h2>What is the objective of this guide?</h2>
  <p>To, at first moment, remove the choice paralysis that is so common for people that are switching to linux. Also, to add some tips and tricks for beginners.<br>
 It's not meant to be a definitive set in stone way to do things. As soon you get confortable with linux you should explore more</p>
-               <!-- LINE BREAK FOR READABILITY -->
-                <h2>Which are my sources on this guide?</h2><br/>
+
+                <h2>Which are my sources on this guide?</h2>
 <p>The voices in my head, r/Linux, r/linux4noobs, r/linux_gaming, chans, linuxquestions.org, vivaolinux.com.br and a lot of other forums around the web.<br>
               Those subreddits have their own wiki and a lot of info that you should take a look as soon as you feel confident on your understanding of linux.</p>
-               <!-- LINE BREAK FOR READABILITY -->
+
                <h1>Last time updated: SET/2024</h1>
                  </article>
                            <article><div class="subtitle">STARTING</div>
-               <!-- LINE BREAK FOR READABILITY -->
-             <h2>Which distro should i use?</h2><br/>
-  <p>There is a lot of distro out there and all of them do basically the same and the difference for a beguinner is what comes pre installed. Everything boils down to what is your use case.<br>If most of your time is playing games: Start with <a href="https://bazzite.gg/">Bazzite<br> If most of your time is on your browser or deskwork: Start with <a href="https://get.opensuse.org/tumbleweed/">OpenSUSE or <a href="https://pop.system76.com/">POP_OS!<br></p>
-               <!-- LINE BREAK FOR READABILITY -->
-            <h2>Which desktop environment should i use?</h2><br/>
+
+                            <h2>Should i dual boot?</h2>
+  <p>It's a good ideia to do so as you can switch between systems on boot until you decide if you want to keep on linux or not. I would still recommend for you to install it alone if you can because bootloaders can be messy to deal with.</p>
+                            
+                            <h2>What should i do before starting to migrate?</h2>
+  <p> First: Take note of your most used programs and search if they are avaliable on linux or if there is a alternative. You can use some windows-only programs on linux through Wine, but it's kinda complicated for a beginner. If you play games you should take a look at <a href="https://www.protondb.com/profile">protondb</a> and use it's Library search function to see if the games you play are compatible. <br> 
+  Second: Backup everything important (photos, docs, etc) of your pc to a cloud service or external HDD/Pendrive.<br>
+  Third: Backup your windows key/serial.
+  Fourth: Be mentaly prepared to something go wrong and keep calm.</p>
+                            
+                           <h2>Which program should i use to make my bootable pendrive?</h2>
+  <p><a href="https://rufus.ie/">Rufus</a> if you want only to try a single distro at time. <a href="https://www.ventoy.net/en/download.html">Ventoy</a> if you want to try many without formating the pendrive. You need at least a 4gb pendrive.</p>
+                            
+             <h2>Which distro should i use?</h2>
+  <p>There is a lot of distro out there and all of them do basically the same and the difference for a beguinner is what comes pre-installed and pre-configured. Everything boils down to what is your use case.<br>If most of your time is playing games: Start with <a href="https://bazzite.gg/#image-picker">Bazzite</a>.<br> If most of your time is on your browser or deskwork: Start with <a href="https://get.opensuse.org/tumbleweed/">OpenSUSE</a> or <a href="https://www.linuxmint.com/download_all.php">Mint</a>.<br> Both openSUSE and Mint have a lot of support from community and the devs, but openSUSE is more focused in being stable and up-to-date while Mint is focused in being absolute user friendly. Both are easy to install and use.</p>
+
+            <h2>Which desktop environment should i use?</h2>
  <p>There is a lot of differences on look and feel on each one, but it boils down to are you used to windows or mac flow?<br>
-If you like windows try KDE. If you like mac try GNOME.<br>
-If you have a old machine and/or a HDD use XFCE or MATE</p>
+If you like windows try KDE (or Cinnamon if you choose Mint). If you like mac/android try GNOME.<br>
+If you have an old machine and/or a HDD use XFCE or MATE</p>
+
+                <h2>What about window managers?</h2>
+<p>Those are used by more advanced user that like to work in minimalistic and know how to navigate through the system with keyboard-only. They are very good for coding and text editing work flow and you should check them out when you feel more confident about your linux knowledge.</p>
+              
+                 <h2>I choose my distro and my desktop, what should i do now?</h2><br/>
+<p>Follow your choosen distro guide and install it in your machine. Even if the distro say to use any other program to format your pendrive you still can use Rufus or Ventoy.</p>
+                 </article>
+             </main>
+          </div>
+                                    <article><div class="subtitle">AFTER INSTALL</div>
                <!-- LINE BREAK FOR READABILITY -->
-                <h2>What about window manager?</h2><br/>
-<p>Those are used by more advanced user that like to work in minimalistic and know how to navigate with the terminal and/or with keyboard only.</p>
+             <h2>Ok, i installed it and it booted. What should i do now?</h2>
+  <p>Open the terminal and update your system.<br>
+  On Bazzite: "sudo ujust update"<br>
+  On openSUSE: "sudo zypper refresh" and then "sudo zypper upgrade"<br>
+  On Mint: "sudo apt update" and then "sudo apt upgrade"<br>
+  Those three distros have a program to update it, but it's good to start discovering the terminal.<br>
+  You mai need proprietary codecs too.<br>
+  On openSUSE: "sudo zypper in opi" and then "opi codecs" <br>
+  On Mint: take a look <a href="https://linuxmint-installation-guide.readthedocs.io/en/latest/codecs.html">here</a>.
+  </p>
+               <!-- LINE BREAK FOR READABILITY -->
+            <h2>How i get new programs?</h2>
+<p>Each distro have some kind of "appstore". <br>
+ On Bazzite: Use Discover. <br>
+ On OpenSUSE: Use YaST. <br>
+ On Mint: Use Software Manager.<br>
+ All distros can use flatpak/flathub and it's a good way to install some apps like discord and spotify.<br> 
+ Installing programs thought the terminal is a easy and viable too. You can google "how i install X on Y" and find how to do so.
+</p>
+               <!-- LINE BREAK FOR READABILITY -->
+                <h2>Which programs should i use to do X?</h2>
+<p>If the program you listed before don't have a linux version and if it's not already pre-installed on your distro, you can check this selection here:<br>
+Browser: Any browser that you used on windows probably have a version on linux, but Firefox is more favorable. Install the Ublock Origin addon.<br>
+Office Suite (MSoffice): Libreoffice <br>
+Photoshop: PhotoGIMP <br>
+Mediaplayer: SMPlayer or VLC <br>
+Backup Tool: Timeshift. You really should install it <br>
+</p>
                <!-- LINE BREAK FOR READABILITY -->
                  </article>
              </main>
