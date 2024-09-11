@@ -1,5 +1,5 @@
 :root {
-    --bg-color:#000000;
+    --bg-color:#121212;
     --border-color:#000000;
     --subtitle-color:#000000;
     --link-color:#e0a307;
@@ -9,9 +9,9 @@
   html, body {
     margin:0;
     padding:0;
-    background-color:#e0a307;
+    background-color:#121212;
     background-attachment:fixed;
-    background-image:url('https://t4.ftcdn.net/jpg/04/21/43/95/360_F_421439576_zzg0kGw1QZ6S6WDAS4qgglRPP4wxddjS.jpg');
+    background-image:url('images/bg.png');
   }
   body a {
     color:var(--link-color);
@@ -19,7 +19,7 @@
   header {
     width:400px;
     height:800px;
-    background-image:url('');
+    background-image:url('images/header.png');
     background-size:103%;
     
   }
