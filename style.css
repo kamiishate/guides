@@ -1,0 +1,118 @@
+:root {
+    --bg-color:#000000;
+    --border-color:#000000;
+    --subtitle-color:#000000;
+    --link-color:#e0a307;
+  
+  }
+  
+  html, body {
+    margin:0;
+    padding:0;
+    background-color:#e0a307;
+    background-attachment:fixed;
+    background-image:url('https://t4.ftcdn.net/jpg/04/21/43/95/360_F_421439576_zzg0kGw1QZ6S6WDAS4qgglRPP4wxddjS.jpg');
+  }
+  body a {
+    color:var(--link-color);
+  }
+  header {
+    width:400px;
+    height:400px;
+    background-image:url('https://yukki.dev/images/gifs/lain_strobe.gif');
+    background-size:103%;
+    
+  }
+  .flex {
+    display:flex;
+  }
+  .sidebar {
+    color:#e0a307;
+    background-color:var(--bg-color);
+    opacity: 0.5;
+    font-family: monospace, monospace;
+    max-width:250px;
+    width:200px;
+    height:100vh;
+    border:1px solid var(--border-color);
+    position:fixed;
+  }
+  article {
+    color: #ffffff;
+    font-family: monospace, monospace;
+    background-color:var(--bg-color);
+    border:1px solid var(--border-color);
+    margin-top:20px;
+    max-width:370px;
+    margin-left:10px;
+    margin-right:10px;
+    
+  }
+  .subtitle {
+    color: #ffffff;
+    font-family: monospace, monospace;
+    font-size:18px;
+    font-weight:bold;
+    border-bottom:2px solid var(--subtitle-color);
+    margin-left:10px;
+    margin-right:10px;
+    text-align:right;
+    padding-top:20px;
+  }
+  article > p {
+    color: #ffffff;
+    font-family: monospace, monospace;
+    padding:10px;
+    padding-left:20px;
+  }
+  .links {
+    list-style-type:'+';
+    font-size:16px;
+    
+  }
+  .links li a {
+    color:var(--link-color);
+    letter-spacing:1px;
+    text-decoration:none;
+  }
+  main {
+    color: #ffffff;
+    margin-top:-21px;
+  }
+     section > p {
+       padding:10px;
+     }
+  footer {
+    margin-left:20px;
+    max-width:30%;
+    font-size:12px;
+  }
+  
+   @media only screen and (max-width: 630px) {
+     .sidebar {
+       position:relative;
+       max-width:100%;
+       width:100%;
+       height:150px;
+       display:flex;
+       flex-direction:row;
+       flex-wrap:wrap;
+       overflow:hidden;
+     }
+     .flex {
+       flex-wrap:wrap;
+       flex-direction:row;
+     }
+     .right {
+       order:1;
+       width:100%;
+     }
+     .left {
+       order:2;
+     }
+     section {
+       display:flex;
+       flex-wrap:wrap;
+       width:120px;
+     }
+  }
