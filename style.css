@@ -19,7 +19,7 @@
   header {
     width:400px;
     height:400px;
-    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT80uzfiJhNJrMGM4gvibJnfM078kRwyIRyGA&s');
+    background-image:url('');
     background-size:103%;
     
   }
@@ -43,7 +43,7 @@
     background-color:var(--bg-color);
     border:1px solid var(--border-color);
     margin-top:20px;
-    max-width:370px;
+    max-width:1080px;
     margin-left:10px;
     margin-right:10px;
     
