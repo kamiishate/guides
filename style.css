@@ -17,10 +17,8 @@
     color:var(--link-color);
   }
   header {
-    width: 100PX;
-    height:200px;
     background-image:url('images/header.png');
-    background-size:103%;
+    background-size:100%;
     margin-top:20px;
     margin-left:10px;
     margin-right:10px;
@@ -45,7 +43,7 @@
     font-family: monospace, monospace;
     background-color:var(--bg-color);
     border:1px solid var(--border-color);
-    max-width:85%;
+    max-width:750px;
     margin-top:20px;
     margin-left:10px;
     margin-right:10px;
@@ -60,7 +58,6 @@
     margin-left:10px;
     margin-right:10px;
     text-align:center;
-    padding-top:3px;
   }
   article > 
 h1 {
@@ -82,11 +79,10 @@ h3 {
 p {
     color: #ffffff;
     font-family: monospace, monospace;
-    padding-down:10px;
     padding-left:10px;
   }
   .links {
-    list-style-type:'>';
+    list-style-type:'.>';
     font-size: 16px;
     
   }
