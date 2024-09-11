@@ -17,10 +17,13 @@
     color:var(--link-color);
   }
   header {
-    width: 85%;
+    width: 100PX;
     height:200px;
     background-image:url('images/header.png');
     background-size:103%;
+    margin-top:20px;
+    margin-left:10px;
+    margin-right:10px;
     
   }
   .flex {
@@ -57,7 +60,7 @@
     margin-left:10px;
     margin-right:10px;
     text-align:center;
-    padding-top:20px;
+    padding-top:3px;
   }
   article > 
 h1 {
