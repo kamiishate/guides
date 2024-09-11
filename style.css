@@ -17,6 +17,8 @@
     color:var(--link-color);
   }
   header {
+    width: 750px;
+    height: 200px;
     background-image:url('images/header.png');
     background-size:100%;
     margin-top:20px;
